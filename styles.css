@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    padding: 50px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #2F3E53;
+}
+
+.title{
+    font-size: 40px;
+}
+
+.green {
+    color: #4ADF86;
+}
+
+.description {
+    color: #D5D4D8;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.passwords-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.passwords-region {
+    margin-top: 35px;
+    height: 40px;
+    border: none;
+    background-color: #273549;
+    border-radius: 6px;
+    width: 200px;
+    color: #55F991;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #10B981;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
